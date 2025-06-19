@@ -1,0 +1,22 @@
+package inventory;
+
+public class main {
+    public static void main(String[] args) {
+        inventoryManager inventory = new inventoryManager();
+
+        Product p1 = new Product("P001", "Laptop", 10, 999.99);
+        Product p2 = new Product("P002", "Mouse", 50, 25.75);
+
+        inventory.addProduct(p1);
+        inventory.addProduct(p2);
+
+        System.out.println("\n--- Inventory ---");
+        inventory.printInventory();
+
+        inventory.updateProduct("P001", 15, null); 
+        inventory.deleteProduct("P002");
+
+        System.out.println("\n--- Updated Inventory ---");
+        inventory.printInventory();
+    }
+}
