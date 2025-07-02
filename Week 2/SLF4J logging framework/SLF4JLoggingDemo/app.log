@@ -1,0 +1,20 @@
+2025-07-02 10:15:18 [main] INFO  c.e.l.ParameterizedLoggingExample - User with ID 101 and name john_doe has logged in.
+2025-07-02 10:15:18 [main] WARN  c.e.l.ParameterizedLoggingExample - User john_doe attempted to access restricted area.
+2025-07-02 10:15:18 [main] ERROR c.e.l.ParameterizedLoggingExample - Error occurred for user ID: 101
+2025-07-02 10:15:33 [main] INFO  c.e.logging.AppenderLoggingExample - This log goes to both console and file.
+2025-07-02 10:15:33 [main] DEBUG c.e.logging.AppenderLoggingExample - Debugging application for issue tracking.
+2025-07-02 10:15:33 [main] ERROR c.e.logging.AppenderLoggingExample - Simulated error occurred!
+2025-07-02 10:19:41 [main] INFO  c.e.logging.AppenderLoggingExample - This log goes to both console and file.
+2025-07-02 10:19:41 [main] DEBUG c.e.logging.AppenderLoggingExample - Debugging application for issue tracking.
+2025-07-02 10:19:41 [main] ERROR c.e.logging.AppenderLoggingExample - Simulated error occurred!
+2025-07-02 10:22:57 [main] INFO  c.e.l.ParameterizedLoggingExample - User with ID 101 and name john_doe has logged in.
+2025-07-02 10:22:57 [main] WARN  c.e.l.ParameterizedLoggingExample - User john_doe attempted to access restricted area.
+2025-07-02 10:22:57 [main] ERROR c.e.l.ParameterizedLoggingExample - Error occurred for user ID: 101
+2025-07-02 10:56:56 [main] INFO  c.e.logging.AppenderLoggingExample - This log goes to both console and file.
+2025-07-02 10:56:56 [main] DEBUG c.e.logging.AppenderLoggingExample - Debugging application for issue tracking.
+2025-07-02 10:56:56 [main] ERROR c.e.logging.AppenderLoggingExample - Simulated error occurred!
+2025-07-02 10:57:19 [main] ERROR com.example.logging.LoggingExample - This is an error message
+2025-07-02 10:57:19 [main] WARN  com.example.logging.LoggingExample - This is a warning message
+2025-07-02 10:57:38 [main] INFO  c.e.l.ParameterizedLoggingExample - User with ID 101 and name john_doe has logged in.
+2025-07-02 10:57:38 [main] WARN  c.e.l.ParameterizedLoggingExample - User john_doe attempted to access restricted area.
+2025-07-02 10:57:38 [main] ERROR c.e.l.ParameterizedLoggingExample - Error occurred for user ID: 101
