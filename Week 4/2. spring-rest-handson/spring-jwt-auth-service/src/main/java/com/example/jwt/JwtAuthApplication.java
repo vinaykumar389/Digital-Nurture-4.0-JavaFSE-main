@@ -1,0 +1,1 @@
+public class JwtAuthApplication { public static void main(String[] args) {} }
