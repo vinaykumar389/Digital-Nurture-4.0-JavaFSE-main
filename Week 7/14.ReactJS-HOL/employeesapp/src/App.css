@@ -1,0 +1,155 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  padding: 2rem;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+.app {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+body {
+  background: linear-gradient(135deg, #f3f4f6, #d1d5db), url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+/* Layout */
+.employees-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Card Base */
+.employee-card {
+  border-radius: 20px;
+  padding: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Card Styles */
+.card-glass {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.card-dark {
+  background: #1f2937;
+  color: #f9fafb;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+.card-flat {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+.card-shadow {
+  background: #fff;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Hover */
+.employee-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Card Text */
+.employee-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+.employee-card p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+/* Buttons: Multiple Variants */
+button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  border: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+/* Color Variants */
+.btn-blue {
+  background-color: #3b82f6;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: #2563eb;
+}
+
+.btn-green {
+  background-color: #10b981;
+  color: white;
+}
+.btn-green:hover {
+  background-color: #059669;
+}
+
+.btn-pink {
+  background-color: #ec4899;
+  color: white;
+}
+.btn-pink:hover {
+  background-color: #db2777;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #6b7280;
+  color: #374151;
+}
+.btn-outline:hover {
+  background-color: #f3f4f6;
+}
+
+/* Animation */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
